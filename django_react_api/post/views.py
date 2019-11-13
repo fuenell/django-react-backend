@@ -13,5 +13,3 @@ class ListPost(generics.ListCreateAPIView):
 class DetailPost(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-
-# 만약에 수정 사항이 발생!
