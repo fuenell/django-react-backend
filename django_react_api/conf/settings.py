@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     #'localhost',
     #'.us-west-1.compute.amazonaws.com',
-    #'13.52.223.179',
+    '13.52.223.179',
 ]
 
 # http 요청 주소 허용
