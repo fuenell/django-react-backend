@@ -27,15 +27,14 @@ DEBUG = True
 # 직접 들어오는 경로 허용
 ALLOWED_HOSTS = [
     #'localhost',
-    #'.us-west-1.compute.amazonaws.com',
+    'ec2-13-52-223-179.us-west-1.compute.amazonaws.com',
     '13.52.223.179',
 ]
 
 # http 요청 주소 허용
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
+    #'http://localhost:3000',
     'http://normal-sample-deploy.s3-website-us-west-1.amazonaws.com',
-    'https://d173lu94ip6tqa.cloudfront.net',
 ]
 
 # Application definition
