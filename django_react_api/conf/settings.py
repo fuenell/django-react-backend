@@ -34,7 +34,7 @@ ALLOWED_HOSTS = [
 # http 요청 주소 허용
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'http://normal-sample-deploy.s3-website-us-west-1.amazonaws.com',
+    #'http://normal-sample-deploy.s3-website-us-west-1.amazonaws.com',
     'https://d173lu94ip6tqa.cloudfront.net',
 ]
 
